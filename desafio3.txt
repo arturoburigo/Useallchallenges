@@ -1,0 +1,1 @@
+Alternativa letra B (loop infinito), pois a regra de contagem esta de 0 em 0, sendo assim o laco de repeticao nunca ira acabar.
