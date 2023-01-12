@@ -31,4 +31,4 @@ pilha.print()
 pilha.pop()
 pilha.push('pera')
 pilha.print()
-
+ 
