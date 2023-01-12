@@ -3,7 +3,7 @@ const Pilha =  () => {
     let ultimo_pilha = -1 
 
     const push = (value) => {
-        data ++
+        ultimo_pilha ++
         data[ultimo_pilha] = value
     }
 
@@ -13,7 +13,7 @@ const Pilha =  () => {
         } else {
             const ultimoitem = data[ultimo_pilha]
             data.splice(ultimo_pilha, 1)
-            top --
+            ultimo_pilha --
             return ultimoitem
         }
     }
@@ -27,3 +27,8 @@ const Pilha =  () => {
 }
 
 const pilha = Pilha ()
+pilha.print()
+pilha.pop()
+pilha.push('pera')
+pilha.print()
+
